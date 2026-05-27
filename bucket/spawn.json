@@ -1,27 +1,24 @@
 {
-    "version": "0.34.15",
+    "version": "0.36.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/spore-host/releases/download/v0.34.15/spawn_0.34.15_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/spawn/releases/download/v0.36.0/spawn_0.36.0_windows_amd64.tar.gz",
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "0f217eb8a12bbd0b96dde53bb17327de23b077038ef894c4a3821d45bedd9b62"
+            "hash": "dd26f57bd6f64ac70cb7623bc3a29d23e7a5285a1ec4e2e435fb54a780492616"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/spore-host/releases/download/v0.34.15/spawn_0.34.15_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/spawn/releases/download/v0.36.0/spawn_0.36.0_windows_arm64.tar.gz",
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "2f1ecc06979166e9b36afb91033f4006d53a8108e0c6b2ccf385881895d78e03"
+            "hash": "b9a20560aa0eee9c6f945c06cbb011faf9e598e51b6833faf9c54708a1ceb347"
         }
     },
-    "homepage": "https://github.com/spore-host/spore-host",
+    "homepage": "https://github.com/spore-host/spawn",
     "license": "Apache-2.0",
     "description": "Launch ephemeral AWS EC2 instances effortlessly",
-    "post_install": [
-        "spawn _register-install"
-    ],
     "depends": [
         "spore-host/truffle"
     ]
