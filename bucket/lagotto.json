@@ -1,22 +1,22 @@
 {
-    "version": "0.34.15",
+    "version": "0.36.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/spore-host/releases/download/v0.34.15/lagotto_0.34.15_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/lagotto/releases/download/v0.36.1/lagotto_0.36.1_windows_amd64.tar.gz",
             "bin": [
                 "lagotto.exe"
             ],
-            "hash": "73e2b5bad4e4bfab6f8a28579e6f5fd97aaffaf538f2f0720e4d40ea54a362bd"
+            "hash": "1f0843ba5290a834c7b457131ae1095961950ef891ef5622929b71283d0b9e7f"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/spore-host/releases/download/v0.34.15/lagotto_0.34.15_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/lagotto/releases/download/v0.36.1/lagotto_0.36.1_windows_arm64.tar.gz",
             "bin": [
                 "lagotto.exe"
             ],
-            "hash": "9c7dc7fc5f00ee3d40a8a1a95b41daf59908d6593eaa8d2c29fb77bd5cc9f8e9"
+            "hash": "02bdac3bded6320a8d24e44e670c9a64949df4a72a331838034502c4c193a4b2"
         }
     },
-    "homepage": "https://github.com/spore-host/spore-host",
+    "homepage": "https://github.com/spore-host/lagotto",
     "license": "Apache-2.0",
     "description": "Watch for EC2 instance capacity across regions",
     "depends": [
