@@ -6,14 +6,14 @@
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "3956ae61010c2a9d170cc31f38880def05964a9a083458968e1866756f98fb04"
+            "hash": "e93cbfb7f9d53a14799b1b05a4e0e2a50d971528267b951f99f9830e6bf3baca"
         },
         "arm64": {
             "url": "https://github.com/spore-host/spawn/releases/download/v0.91.0/spawn_0.91.0_windows_arm64.tar.gz",
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "efad3d351ca36bce4bffed44e97a29fddf4aa8d341d6479e3f2cef179a88b28f"
+            "hash": "c10b395e7d1b692ff57c3c124e641e5cc6c1cf03237fe38ab5e1dedc7d32cf2e"
         }
     },
     "homepage": "https://github.com/spore-host/spawn",
