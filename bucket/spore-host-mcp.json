@@ -1,22 +1,22 @@
 {
-    "version": "0.34.15",
+    "version": "0.37.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/spore-host/releases/download/v0.34.15/spore-host-mcp_0.34.15_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/spore-host-mcp/releases/download/v0.37.0/spore-host-mcp_0.37.0_windows_amd64.tar.gz",
             "bin": [
                 "spore-host-mcp.exe"
             ],
-            "hash": "9bd0c10df1048a18ca3b2220e5a716b318755c20819e2996fefc7f584587e08d"
+            "hash": "481dc71206917104ebfe75ac0431e317ab0f98b413ea4e4fb4f898b20d580bc8"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/spore-host/releases/download/v0.34.15/spore-host-mcp_0.34.15_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/spore-host-mcp/releases/download/v0.37.0/spore-host-mcp_0.37.0_windows_arm64.tar.gz",
             "bin": [
                 "spore-host-mcp.exe"
             ],
-            "hash": "bea6f82af1b93cbe18a0de3c2422ded9e5700817e90d69fd18950f9663bd76fe"
+            "hash": "129ad112ff3db85c8043a8dfe6113128c2d8c34e35c8407363a275d50ef248fa"
         }
     },
-    "homepage": "https://github.com/spore-host/spore-host",
+    "homepage": "https://github.com/spore-host/spore-host-mcp",
     "license": "Apache-2.0",
     "description": "MCP server for AI assistants — manage EC2 instances and discover capacity"
 }
