@@ -1,0 +1,31 @@
+{
+    "version": "0.5.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/spore-host/calque/releases/download/v0.5.0/calque_0.5.0_windows_amd64.tar.gz",
+            "bin": [
+                "calque.exe"
+            ],
+            "hash": "7f30d6866206cb40810ef16d9283ecf7064d3f4fca0270a468addb47a3596bda"
+        },
+        "arm64": {
+            "url": "https://github.com/spore-host/calque/releases/download/v0.5.0/calque_0.5.0_windows_arm64.tar.gz",
+            "bin": [
+                "calque.exe"
+            ],
+            "hash": "92bd32c6b1f81f4f4e98c51055ace968a4f3986c7b996d043f840ec959dcff6b"
+        }
+    },
+    "homepage": "https://github.com/spore-host/calque",
+    "license": "Apache-2.0",
+    "description": "Run Modal-shaped code on AWS, unchanged",
+    "persist": [
+        "pyast"
+    ],
+    "post_install": [
+        "[System.Environment]::SetEnvironmentVariable('CALQUE_PYAST_DIR', \"$dir\\pyast\", 'User')"
+    ],
+    "depends": [
+        "uv"
+    ]
+}
