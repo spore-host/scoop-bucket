@@ -1,19 +1,19 @@
 {
-    "version": "0.58.1",
+    "version": "0.58.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/lagotto/releases/download/v0.58.1/lagotto_0.58.1_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/lagotto/releases/download/v0.58.2/lagotto_0.58.2_windows_amd64.tar.gz",
             "bin": [
                 "lagotto.exe"
             ],
-            "hash": "f436eae62b095ed94393a2bafbec4b9a96ef9a6cca9a928497c863ed01b059b7"
+            "hash": "865a05f4338c563cfdb98a5e4367e54ca228953b78be36d3a750f3e03fa0a3a7"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/lagotto/releases/download/v0.58.1/lagotto_0.58.1_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/lagotto/releases/download/v0.58.2/lagotto_0.58.2_windows_arm64.tar.gz",
             "bin": [
                 "lagotto.exe"
             ],
-            "hash": "eb856aa2dbf8ff11964e4b85cd93f5c20e10a98e497f822326be1ca93ecad1ee"
+            "hash": "10d4b7d91f1d6497e336b657edbe54e002fcd5a8b1e55b333fb2f2f716cf6762"
         }
     },
     "homepage": "https://github.com/spore-host/lagotto",
