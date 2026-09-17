@@ -1,25 +1,22 @@
 {
-    "version": "0.57.2",
+    "version": "0.58.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/lagotto/releases/download/v0.57.2/lagotto_0.57.2_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/lagotto/releases/download/v0.58.0/lagotto_0.58.0_windows_amd64.tar.gz",
             "bin": [
                 "lagotto.exe"
             ],
-            "hash": "d4bc85f78fa1f9a410ff753c55e4a8006b2f2b78f2becf2ae7cdb086f2a234ce"
+            "hash": "ee4b0f708b4f97aa119095705c0b30456c598547ae89a1b2d491d25a7e9d33bd"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/lagotto/releases/download/v0.57.2/lagotto_0.57.2_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/lagotto/releases/download/v0.58.0/lagotto_0.58.0_windows_arm64.tar.gz",
             "bin": [
                 "lagotto.exe"
             ],
-            "hash": "616706e2becb81b266524b396b51ab7eb9a1e3211ec460bf05c937bdd47b586f"
+            "hash": "1988c91d47430d87b3281ee37e4cd201525146d576ef519a6c44e34fcd073fbd"
         }
     },
     "homepage": "https://github.com/spore-host/lagotto",
     "license": "Apache-2.0",
-    "description": "Watch for EC2 instance capacity across regions",
-    "depends": [
-        "spore-host/truffle"
-    ]
+    "description": "Watch for EC2 instance capacity across regions"
 }
