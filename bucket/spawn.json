@@ -1,19 +1,19 @@
 {
-    "version": "0.129.0",
+    "version": "0.130.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/spawn/releases/download/v0.129.0/spawn_0.129.0_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/spawn/releases/download/v0.130.0/spawn_0.130.0_windows_amd64.tar.gz",
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "abbf79ba5453644161dbb66f513c3bf0c01a5de129366092ef609ba4622af7d1"
+            "hash": "c4a2af9b2ee5294110a247bbd208c7a48258f9251d4d5cbc63ee333912466108"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/spawn/releases/download/v0.129.0/spawn_0.129.0_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/spawn/releases/download/v0.130.0/spawn_0.130.0_windows_arm64.tar.gz",
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "534468511c5f5aafd443d2c93a7220dd7eb2740690b0f592eb2cc82750215c7d"
+            "hash": "07c30d10439b4a1b0089ddf66c4cba0276bbcccec1a5c2ccef063cedd8e80078"
         }
     },
     "homepage": "https://github.com/spore-host/spawn",
