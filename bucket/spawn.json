@@ -1,24 +1,24 @@
 {
-    "version": "0.140.0",
+    "version": "0.141.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/spawn/releases/download/v0.140.0/spawn_0.140.0_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/spawn/releases/download/v0.141.0/spawn_0.141.0_windows_amd64.tar.gz",
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "6d824011a076f4d8aec0f068772ea1a4a7bfed12e99a8e8c3b4571c4d6c1cacc"
+            "hash": "0ef6b71d825393c402d1314765d4fc5bb6d3017c765dc6ab92e5da83a6fad569"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/spawn/releases/download/v0.140.0/spawn_0.140.0_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/spawn/releases/download/v0.141.0/spawn_0.141.0_windows_arm64.tar.gz",
             "bin": [
                 "spawn.exe"
             ],
-            "hash": "02772956987fd997b860dcf198a388c1e743cb4d0ae5c52bf2f877f0f1c45798"
+            "hash": "ee796d61410a15e1185b0dc9ef455f9ca1e756ad3735a1870a1bb36904489cc6"
         }
     },
     "homepage": "https://github.com/spore-host/spawn",
     "license": "Apache-2.0",
-    "description": "Launch ephemeral AWS EC2 instances effortlessly",
+    "description": "Ephemeral compute for AWS",
     "depends": [
         "spore-host/truffle"
     ]
