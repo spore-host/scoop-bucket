@@ -1,19 +1,19 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spore-host/calque/releases/download/v0.6.0/calque_0.6.0_windows_amd64.tar.gz",
+            "url": "https://github.com/spore-host/calque/releases/download/v0.7.0/calque_0.7.0_windows_amd64.tar.gz",
             "bin": [
                 "calque.exe"
             ],
-            "hash": "e901e0054e7d441e95a2aade73de290131cfc88212c71cc1765b12f9f3571c94"
+            "hash": "05ce4da6a90eea2c2f2a4b9eac2dc1ef6d8ecadcc3820524ac087f7912f1b5b4"
         },
         "arm64": {
-            "url": "https://github.com/spore-host/calque/releases/download/v0.6.0/calque_0.6.0_windows_arm64.tar.gz",
+            "url": "https://github.com/spore-host/calque/releases/download/v0.7.0/calque_0.7.0_windows_arm64.tar.gz",
             "bin": [
                 "calque.exe"
             ],
-            "hash": "aa27da27c6a71abe3cb0c574bfc9327ed34b682ba012229f29848c11d54cf49f"
+            "hash": "d104c3e5fb1bd6a4a904fe6c2d4cef8bbadc4a40f7cf195d34f8f456b88d0b13"
         }
     },
     "homepage": "https://github.com/spore-host/calque",
